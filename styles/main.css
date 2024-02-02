@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.single-day-regular {
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-image: url("https://eltiempomx.com/cdn-cgi/image/format=auto,width=730/monclova/2022/12/639cfcbc432a6.jpg");
+  height: 133px;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .header {
+    height: 228px;
+  }
+}
+
+.card {
+  list-style: none;
+  padding: 2px;
+  color: #222;
+  text-align: center;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: rgba(244, 224, 7, 0.632);
+  border-radius: 20px;
+  height: 239px;
+  width: 183px;
+  margin-left: 39px;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 94%;
+    height: 87%;
+    margin-top: 29px;
+    margin-left: -2px;
+  }
+}
+@media (min-width: 1200px) {
+  .card {
+    width: 96%;
+    height: 85%;
+  }
+}
+
+.card-id {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: #525f3d;
+  width: 35px;
+  color: yellowgreen;
+}
+@media (min-width: 768px) {
+  .card-id {
+    width: 95px;
+    font-size: 27px;
+  }
+}
+
+.card-img {
+  width: 100%;
+  margin-top: -11px;
+}
+@media (min-width: 768px) {
+  .card-img {
+    margin-top: -9px;
+  }
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+  padding: 2px;
+  border-radius: 7px;
+  background-color: #525f3d;
+  width: 95%;
+  color: yellowgreen;
+  margin-top: -15px;
+}
+@media (min-width: 768px) {
+  .card-name {
+    margin-top: 9px;
+    height: 38px;
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .card-name {
+    font-size: 20px;
+  }
+}
+
+.ul_card-tipo {
+  font-size: 12px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 7px;
+  background-color: orange;
+  width: 95%;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .ul_card-tipo {
+    height: 38px;
+    font-size: 27px;
+  }
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 86px;
+  text-align: center;
+  font-family: "Single Day", cursive;
+  width: 84%;
+  margin-top: 0px;
+  margin-left: 31px;
+  padding-top: 45px;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 92px;
+    margin-left: 77px;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 100px;
+    margin-left: 106px;
+  }
+}
+
+#pokedex {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+}
+
+.input {
+  display: block;
+  margin-left: 22%;
+  margin-top: 1%;
+  margin-bottom: 6%;
+}
+@media (min-width: 768px) {
+  .input {
+    margin-top: 3%;
+    margin-left: 38%;
+    margin-bottom: 3%;
+  }
+}
+
+input {
+  width: 155px;
+  height: 26px;
+}
+@media (min-width: 768px) {
+  input {
+    width: 214px;
+    height: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  input {
+    width: 234px;
+    height: 52px;
+  }
+}/*# sourceMappingURL=main.css.map */

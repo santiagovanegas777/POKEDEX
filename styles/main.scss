@@ -1,0 +1,77 @@
+@import "./core/reset";
+@import "./core/font";
+@import "./core/responsive";
+@import "./sections/header";
+@import "./sections/card";
+
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  margin-top: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 86px;
+  text-align: center;
+  font-family: "Single Day", cursive;
+  width: 84%;
+  margin-top: 0px;
+  margin-left: 31px;
+  padding-top: 45px;
+  @include table{
+    font-size: 92px;
+    margin-left: 77px;
+  }
+  @include desktop{
+    font-size: 100px;
+    margin-left: 106px;
+  }
+ 
+}
+
+#pokedex {
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
+}
+
+.input{
+    display: block;
+    margin-left: 22%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    @include table{
+      margin-top: 3%;
+      margin-left: 38%;
+      margin-bottom: 3%;
+    }
+    
+}
+
+input{
+  width: 155px;
+  height: 26px;
+  @include table{
+    width: 214px;
+    height: 38px;
+  }
+  @include desktop{
+    width: 234px;
+    height: 52px;
+  }
+}
+

@@ -1,0 +1,90 @@
+.card {
+  list-style: none;
+  padding: 2px;
+  color: #222;
+  text-align: center;
+  border-width: 10px;
+  border-style: ridge;
+  border-color: rgba(244, 224, 7, 0.632);
+  border-radius: 20px;
+  height: 239px;
+  width: 183px;
+  margin-left: 39px;
+  @include table {
+    width: 94%;
+    height: 87%;
+    margin-top: 29px;
+    margin-left: -2px;
+}
+@include desktop{
+  width: 96%;
+  height: 85%;
+}
+}
+
+.card-id {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: #525f3d;
+  width: 35px;
+  color: yellowgreen;
+  @include table{
+    width: 95px;
+    font-size:27px;
+  }
+}
+
+.card-img {
+  width: 100%;
+  margin-top: -11px;
+  @include table{
+    margin-top :-9px;
+  
+  }
+}
+
+.card-name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  margin: auto;
+  padding: 2px;
+  border-radius: 7px;
+  background-color: #525f3d;
+  width: 95%;
+  color: yellowgreen;
+  margin-top: -15px;
+  @include table{
+    margin-top: 9px;
+    height: 38px;
+    font-size: 24px;
+  }
+  @include desktop{
+    font-size: 20px;
+  }
+}
+
+.ul_card-tipo {
+  font-size: 12px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 7px;
+  background-color: orange;
+  width: 95%;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  @include table{
+    height: 38px;
+    font-size: 27px;
+  }
+}
+
+.card:hover {
+  //transform: scale3d(1.3, 1.3, 1.3);
+  transform: translateY(-20px);
+}

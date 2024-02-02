@@ -1,0 +1,9 @@
+.header{
+    background-image: url("https://eltiempomx.com/cdn-cgi/image/format=auto,width=730/monclova/2022/12/639cfcbc432a6.jpg");
+    height: 133px;
+    width: 100%;
+    @include desktop{
+        height: 228px;
+    }
+  
+}
